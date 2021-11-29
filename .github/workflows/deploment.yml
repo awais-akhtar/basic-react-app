@@ -21,4 +21,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run surge
-        run: surge ./build bootcamp_react_ziakhan1111.surge.sh --token ${{ secrets.mytoken }}
+        run: surge ./ bad-twist.surge.sh --token ${{secrets.MYTOKEN}}
