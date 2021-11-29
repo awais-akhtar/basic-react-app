@@ -11,10 +11,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
+
+
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "babel src -d lib",
+    "test": "jest",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
